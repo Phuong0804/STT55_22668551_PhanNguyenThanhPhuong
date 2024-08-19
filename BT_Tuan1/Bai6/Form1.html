@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div style="background-color: lightblue;">
+    <center> 
+        <h1> Registration Form </h1></j1>
+        <p> Register your Jackson Electronics product here </p>
+    </center>
+        <form action="">
+            <div class="form-group">
+            First name: <input type="text" name="firstname"> 
+            Last name: <input type="text" name="lasname">
+            <br> Address #1: <input type="text" name="address1">
+            <br> Address #2: <input type="text" name="address2">
+            <br> City: <input type="text" name="city"> State: <input type="text" name="state"> Zip: <input type="text" name="zip">
+            <br> Country: <input type="text" name="country"> 
+            <hr>
+        </div>
+        <div class="form-group">
+            Product: <select name="product">
+                <option value="Enter" selected> Enter </option>
+                <option value="ScanMaster" selected>ScanMaster</option> </select>
+            <br> Date Purchased: <input type="text" name="Date Purchase">
+            <br> Serial #: <input type="text" name="Serial">
+        </div>
+        <div class="form-group">
+            <br> Used for:
+            <input type="radio" name="Role" value="Home"> Home
+            <input type="radio" name="Role" value="Educational Institution"> Educational Institution
+            <br> <input type="radio" name="Role" value="Business"> Business
+            <input type="radio" name="Role" value="Other"> Other
+            <br> <input type="radio" name="Role" value="Government"> Government
+        </div>
+        <div class="form-group">
+            System (check all that apply):
+            <input type="checkbox" name="System" value="Windows" id="Windows">
+            <label for="Windows"> Windows </label>
+            <input type="checkbox" name="System" value="UNIX" id="UNIX"> 
+            <label for="UNIX"> UNIX </label>
+            <br> <input type="checkbox" name="System" value="Macintosh" id="Macintosh"> 
+            <label for="Macintosh"> Macintosh </label>
+            <input type="checkbox" name="System" value="Other" id="Other"> 
+            <label for="Other"> Other </label>
+            <hr>
+        </div>
+        <div class="form-group">
+            Comments?: <textarea rows="6" cols="50" name="comments"> </textarea>
+            <br> <input type="button" value="Click to register">
+            <input type="button" value="Click to cancle">
+        </div>
+        </form>
+    </div>
+</body>
+</html>
